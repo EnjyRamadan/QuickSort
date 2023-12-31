@@ -13,7 +13,7 @@ def partition(arr, low, high):
     pivot = arr[(low + high) // 2]
 
     # Initialize pointers
-    i = low - 1
+    i = low - 1 
     j = high + 1
 
     while True:
